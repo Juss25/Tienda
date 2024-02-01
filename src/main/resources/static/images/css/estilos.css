@@ -3,7 +3,7 @@
     Author     : Jus Sánchez
 */
 
-#tituloPrincipal{
+/*#tituloPrincipal{
     color: dodgerblue;
     font-family: sans-serif;
 }
@@ -15,5 +15,14 @@
     color: green;
     font-size: 20px;
 }
+*/
 
+.contenedor{
+    top: 12%;
+    left: 0;
+    background-color: beige;
+    margin: 0px;
+    padding: 10px;
+    position: fixed;
+}
 
