@@ -1,5 +1,3 @@
-
-
 package com.tienda.dao;
 
 import com.tienda.domain.Categoria;
