@@ -21,7 +21,11 @@ public class Producto implements Serializable {
     private int existencias;
     private String rutaImagen;
     private boolean activo;
-    private Long idCategoria;
+    //private Long idCategoria;
+    
+    @ManyToOne
+    @JoinColumn(name = "id_categoria")
+    Categoria categoria;
 
     public Producto() {
     }
@@ -33,7 +37,7 @@ public class Producto implements Serializable {
         this.existencias = existencias;
         this.rutaImagen = rutaImagen;
         this.activo = activo;
-        this.idCategoria = idCategoria;
+        //this.idCategoria = idCategoria;
     }
     
     
