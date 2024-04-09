@@ -25,7 +25,7 @@ public class CorreoServiceImpl implements CorreoService {
         MimeMessage message = mailSender.createMimeMessage();
         MimeMessageHelper helper 
                 = new MimeMessageHelper(message, 
-                        true);
+                        true, "UTF-8");
         helper.setTo(para);
         helper.setSubject(asunto);
         helper.setText(contenidoHtml,true);
